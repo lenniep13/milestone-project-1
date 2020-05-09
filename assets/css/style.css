@@ -1,37 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap: 100, 200, 300, 400, 500, 600, 700| Anton: 100, 200, 300, 400, 500, 600, 700');
 
 body {
-    background-color: #fff;
-    
-}
-header{
     margin: 0;
+    background-color: #fff;
+    align-content: center;
+}
+
+/*-------------------------- Header*/
+
+header{
+    background-color: #47495a;
+    margin: 0;
+    height: 100px;
 }
 
 nav {
-    background-color: #47495a;
-    height: 100px;
-    
+    margin: 0;
 }
+
 ul{
     float: right;
     margin-right: 10px;
-
 }
 
 li {
     color: #fff;
     display: inline-block;
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 16pt;
 }
 
 a {
     color: #fff;
 }
 
-.logo {
-background-color: #47495a; 
-max-height: 100px;
-background: url(../assets/images/Peacock_Logo-white.png);
-
+.logo { 
+background-position: center;
+background: url("../images/Peacock_Logo-white.png");
+background-repeat: no-repeat;
+min-height: 20px;
+transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
 }
