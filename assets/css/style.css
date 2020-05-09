@@ -3,44 +3,52 @@
 body {
     margin: 0;
     background-color: #fff;
-    align-content: center;
+    
+}
+/* --------------------------- colors*/
+
+.ui-menu-color-home{
+background-color: #006a83;
 }
 
+.ui-menu-color-portfolio{
+background-color: #00a192;
+}
+
+.ui-menu-color-contact{
+background-color: #9bb83d;
+}
+.ui-menu-color-cv {
+    background-color: #fafafa;
+}
 /*-------------------------- Header*/
-
-header{
+header {
     background-color: #47495a;
-    margin: 0;
-    height: 100px;
 }
-
-nav {
-    margin: 0;
-}
-
-ul{
-    float: right;
-    margin-right: 10px;
-}
-
-li {
-    color: #fff;
-    display: inline-block;
-    padding-left: 30px;
-    padding-top: 30px;
-    font-size: 16pt;
-}
-
-a {
-    color: #fff;
-}
-
 .logo { 
-background-position: center;
 background: url("../images/Peacock_Logo-white.png");
+background-position: center;
 background-repeat: no-repeat;
-min-height: 20px;
-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
+background-size: contain;
+margin: 0;
+min-height: 200px;
+
 }
+
+.list-inline-item:not(:last-child) {
+margin: 0;
+}
+
+.row {
+    margin: 0 5px;
+}
+
+/* @media screen and (max-width: 600px) {
+  .logo { 
+    background: url("../images/peacock-logo-icon-white.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 100px;
+  }
+  */
