@@ -6,47 +6,54 @@ body {
     
 }
 /* --------------------------- colors*/
+a {
+    color: #fafafa;
+    text-align: center;
+}
+.ui-menu-color-home:hover{
+background-color: #006a83;
 
-.ui-menu-color-home{
+}
+
+.ui-menu-color-portfolio:hover{
+background-color: #00a192;
+}
+.ui-menu-color-cv:hover {
+    background-color: #9bb83d;
+}
+
+.ui-menu-color-contact:hover{
 background-color: #006a83;
 }
 
-.ui-menu-color-portfolio{
-background-color: #00a192;
-}
-
-.ui-menu-color-contact{
-background-color: #9bb83d;
-}
-.ui-menu-color-cv {
-    background-color: #fafafa;
-}
 /*-------------------------- Header*/
 header {
     background-color: #47495a;
 }
 .logo { 
 background: url("../images/Peacock_Logo-white.png");
-background-position: center;
+background-position: left;
 background-repeat: no-repeat;
-background-size: 45%;
 margin: 0;
-min-height: 50px;
+max-height: 
 }
 
 .list-inline-item:not(:last-child) {
 margin: 0;
 }
 
-.row {
-    margin: 0 0px;
+.menucontainer{
+    font-size: 0;
+}
+
+#nav {
+font-size: 14pt;
 }
 
 @media screen and (max-width: 768px) {
   .logo { 
-    background-size: 30%;
+    background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
     max-height: 50px;
   }
-  */
