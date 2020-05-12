@@ -3,7 +3,11 @@
 body {
     margin: 0;
     background-color: #fff;
+}
+
+.container-fluid {
     
+
 }
 /* --------------------------- colors*/
 a {
@@ -26,16 +30,22 @@ background-color: #00a192;
 background-color: #006a83;
 }
 
-/*-------------------------- Header*/
 header {
     background-color: #47495a;
 }
+
+.about-me-section{
+    background-color: #9bb83d;
+    height: 400px;
+}
+
+/*-------------------------- Header*/
+
 .logo { 
-background: url("../images/Peacock_Logo-white.png");
 background-position: left;
 background-repeat: no-repeat;
 margin: 0;
-max-height: 
+max-height: 50px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -47,7 +57,13 @@ margin: 0;
 }
 
 #nav {
-font-size: 14pt;
+float: right;
+color: #fafafa;
+text-align: center;
+padding: 0;
+text-decoration: none;
+font-size: 14px;
+display: block;
 }
 
 @media screen and (max-width: 768px) {
