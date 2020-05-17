@@ -1,75 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap: 100, 200, 300, 400, 500, 600, 700| Anton: 100, 200, 300, 400, 500, 600, 700');
 
+ /* -- nav-links -- */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(155,184,61,.75);
+}
+/* -- Elements -- */
 body {
-    margin: 0;
-    background-color: #fff;
-}
-
-.container-fluid {
-    
-
-}
-/* --------------------------- colors*/
-a {
-    color: #fafafa;
-    text-align: center;
-}
-.ui-menu-color-home:hover{
-background-color: #006a83;
-
-}
-
-.ui-menu-color-portfolio:hover{
-background-color: #00a192;
-}
-.ui-menu-color-cv:hover {
-    background-color: #9bb83d;
-}
-
-.ui-menu-color-contact:hover{
-background-color: #006a83;
-}
-
-header {
-    background-color: #47495a;
-}
-
-.about-me-section{
-    background-color: #9bb83d;
-    height: 400px;
-}
-
-/*-------------------------- Header*/
-
-.logo { 
-background-position: left;
-background-repeat: no-repeat;
-margin: 0;
-max-height: 50px;
-}
-
-.list-inline-item:not(:last-child) {
-margin: 0;
-}
-
-.menucontainer{
-    font-size: 0;
-}
-
-#nav {
-float: right;
-color: #fafafa;
-text-align: center;
-padding: 0;
-text-decoration: none;
-font-size: 14px;
-display: block;
-}
-
-@media screen and (max-width: 768px) {
-  .logo { 
-    background-size: 50%;
-    background-position: center;
+    background-color: rgb(94, 93, 93);
+    background-image: url("../images/peacock_feathers.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    max-height: 50px;
-  }
+}
+ nav {
+    
+}
+
+h1 {
+    font-size: 4em;
+    color: #fafafa;
+}
+h3 {
+    font-size: 16pt;
+    color: #fafafa;
+}
+
+p {
+    color: #fafafa;
+}
+/* -- classes -- */
+.container-fluid {
+    margin:0;
+}
+
+
+.logo {
+    max-width: 150px;
+    margin-right: 40px;
+    
+}
+
+.about {
+background-image: url("../images/about-BG.jpeg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+padding-top: 75px;
+padding-left: 50px;
+margin: 0;
+height: 100%;
+}
