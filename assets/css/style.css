@@ -47,6 +47,7 @@ background-image: url("../images/about-BG.jpeg");
     background-size: cover;
 padding-top: 75px;
 padding-left: 50px;
+padding-right: 50px;
 margin: 0;
 height: 100%;
 }
